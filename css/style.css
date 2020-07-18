@@ -1,0 +1,115 @@
+body, h1,h2,h3,h4,h5,h6,ul,li,ol,p{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+}
+
+.header-1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    background: transparent;
+    padding: 21px 40px 0 24px;
+    border-bottom: 2px solid rgba(255,255,255,0.5);
+    transition:all ease 1s;
+
+}
+body{
+    height: 2000px;
+    background:#333;
+}
+
+
+#header{
+    position: absolute;
+    width:100%;
+}
+
+.header-1.fixedbar{
+    position: fixed !important;
+    background: deepskyblue;
+    padding:10px 40px 0 24px;
+
+}
+
+.logo{
+    float:left;
+    width:100%;
+    margin-top:6px;
+    text-align:left;
+    padding:0 0 25px
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+.mainmenu{
+    position: relative;
+}
+
+.mainmenu ul{
+    margin: 0;
+    padding: 0;
+}
+
+.mainmenu ul li{
+    list-style:none;
+    display: inline-block;
+    line-height: 0.8;
+    padding: 25px 20px 18px;
+    position: relative;
+}
+
+.mainmenu ul li a{
+    display: block;
+    color: #fff;
+    font-size: 1rem;
+    line-height: 0.8;
+    text-transform: uppercase;
+    position: relative;
+    text-decoration: none;
+    padding: 0px;
+    letter-spacing: 2px;
+}
+
+.mainmenu ul li a::after{
+    position: absolute;
+    content: '';
+    background: #fff;
+    width: 0;
+    height: 1px;
+    left: 0;
+    right: 0;
+    bottom: -0.6rem;
+    transition: all ease-out 0.4s;
+}
+
+.mainmenu ul li a:hover{
+    color: #fff;
+}
+
+
+.mainmenu ul li a:hover::after{
+   width: 100%;
+}
+
+.navigator{
+    position: relative;
+    padding: 20px 0 12px;
+}
+
+.navigator a{
+    display: inline-block;
+    margin: 0;
+    font-size: 1.5rem;
+    line-height: 0.8;
+    color: #fff;
+}
