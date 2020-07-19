@@ -141,14 +141,14 @@ a{
     background:url(../img/bg-main.jpg) 0 0 no-repeat;
     background-size:cover;
     height: 100vh;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
-.myslides{
+/* .myslides{
     position: relative;
     display: none;
     padding-top: 100px;
-}
+} */
 
 .prev, .next{
     cursor: pointer;
@@ -191,6 +191,76 @@ a{
     animation-fill-mode: both;
     animation-name: fadeInLeft;
 }
+
+.myslides h2 span{
+    display: block;
+    text-align: right;
+    font-size: 22px;
+    letter-spacing: 20px;
+    text-transform: capitalize;
+    padding-right: 20px;
+}
+
+.myslides .p_img{
+    display: block;
+    width: auto;
+    height: 500px;
+    position: relative;
+    z-index: 20;
+    animation-duration: 1.2s;
+    animation-fill-mode:both;
+    animation-name:slideInRight;
+}
+
+.myslides{
+    padding-top: 190px;
+}
+
+.myslides .p_detail{
+    width: 350px;
+    position: absolute;
+    top: 180px;
+    right: 100px;
+    z-index: 30;
+}
+
+.myslides .p_detail h3 {
+    font-size: 50px;
+    font-weight: 600;
+    font-style: italic;
+    animation-duration: 1.2s;
+    animation-fill-mode:both;
+    animation-name:fadeInLeft;
+}
+
+.myslides .p_detail h3 i{
+     font-size: 18px;
+     color:#fff;
+}
+
+.myslides .p_detail h3 i.rate{
+   
+    color:#fccb00;
+}
+
+.myslides .p_detail h4{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    animation-duration: 1.2s;
+    animation-fill-mode:both;
+    animation-name:fadeInLeft;
+}
+
+.myslides .p_detail 9{
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 15px;
+    animation-duration: 1.2s;
+    animation-fill-mode:both;
+    animation-name:slideInRight;
+}
+
 
 
 
