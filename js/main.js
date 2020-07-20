@@ -8,3 +8,10 @@ $(window).scroll(function(){
         $('.header-1').addClass('fixedbar');
     }
 });
+
+
+var slideIndex = 1;
+showSlides(slideIndex);
+function plusSlides(n){
+    showslides(slideIndex += n);
+}
