@@ -204,7 +204,7 @@ a{
 .myslides .p_img{
     display: block;
     width: auto;
-    height: 500px;
+    height: 60vh;
     position: relative;
     z-index: 20;
     animation-duration: 1.2s;
@@ -213,7 +213,7 @@ a{
 }
 
 .myslides{
-    padding-top: 190px;
+    padding-top: 10vh;
 }
 
 .myslides .p_detail{
